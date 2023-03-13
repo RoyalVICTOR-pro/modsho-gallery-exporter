@@ -1,0 +1,11 @@
+.DS_Store
+._*
+.Trashes
+.fseventsd
+.Spotlight-V100
+__MACOSX
+Thumbs.db
+.idea
+.lst
+node_modules
+real_files

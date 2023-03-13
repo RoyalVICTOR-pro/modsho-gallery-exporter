@@ -1,0 +1,85 @@
+Chercher les dossiers dont le parentId est l'accueil. 
+Ecrire une fonction récursive qui parcourt le fichier Json
+
+Recoit un parentId
+Cherche tous les éléments dont l'id est égal à ce parentId
+Pour tout ces éléments,  
+
+Créer une fonction getFileName qui récupère le nom du fichier sans l'extension
+
+Fonction createFolderAndCopyFiles
+A un niveau 
+  - doit créer un dossier dans le dossier parent (Dans un premier temps que ca)
+  - doit vérifier s'il y a des médias
+  - s'il y a des médias doit les parcourir
+    - pour chaque média vérifier s'il y a des infos ou des captions
+      - si oui, doit récupérer le nom du fichier
+      - si oui, doit créer un fichier texte portant le nom du fichier dans le dossier en cours
+      - si oui, doit écrire dans le fichier les infoFr, infoEn, captionFr, captionEn  
+    - pour chaque média, copier le fichier physique depuis la source vers le dossier en cours
+    - pour chaque média, attendre que la copie du précédent soit terminée avant de passer au suivant
+  -  
+
+
+############################
+
+Pour tous les éléments d'un niveau, 
+
+Partir de la racine, currentLevel = 0 
+
+createFolderAndCopyFiles(currentId, parentTableauEnfants)
+  - doit créer un dossier à partir du currentId dans le dossier parent (Dans un premier temps que ca)
+    - doit vérifier s'il y a des médias
+      - s'il y a des médias doit les parcourir
+        - pour chaque média vérifier s'il y a des infos ou des captions
+          - si oui, doit récupérer le nom du fichier
+          - si oui, doit créer un fichier texte portant le nom du fichier dans le dossier en cours
+          - si oui, doit écrire dans le fichier les infoFr, infoEn, captionFr, captionEn  
+        - pour chaque média, copier le fichier physique depuis la source vers le dossier en cours
+        - pour chaque média, attendre que la copie du précédent soit terminée avant de passer au suivant
+
+  tant que tu n'es pas arrivé au parentTableauEnfants.length,
+    S'il y a des enfants, trouver les enfants et faire un childrenTableauEnfants
+      appeler createFolderAndCopyFiles(childrenTableauEnfants)
+    Sinon
+      return console.log(Dossier + name + traité)
+
+
+  Compter le nombre d'enfants
+Pour chaque enfant, créer un tableau qui contient les enfants 
+Pour chaque enfant, compter le nombre d'enfants 
+
+Ajouter les identiants des enfants à un tableau en précisant le niveau 1
+
+###########################
+
+Pour chaque enfant, 
+  tu créé un dossier, 
+  et dès que t'as créé ce dossier, 
+    tu rentres dans le dossier 
+      tant qu'il y a des enfants 
+        tu rappelles la même fonction 
+      Sinon 
+        tu sors
+
+########################### A CODER 
+
+Pour chaque id recu, 
+  tu créé un dossier, 
+  et dès que t'as créé ce dossier, 
+    tu vérifies s'il y a des enfants
+      Si oui, tu rentres dans le dossier 
+      tant qu'il y a des enfants à l'id recu
+          tu rappelles la même fonction 
+
+      tu sors du dossier
+      return Sortie du dossier name
+      
+      
+
+###########################
+Use fs. mkdir() or fs. mkdirSync() or fsPromises. mkdir() to create a new folder.
+
+
+s'il n'y a plus d'enfants 
+quand tu rentres dans un niveau, tu prends les éléments dont le parent est égal à ce niveau 

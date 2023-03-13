@@ -1,0 +1,209 @@
+{
+  "galleries": [
+    {
+        "id": 2,
+        "name": "Sous dossier 1_1 du dossier racine 1",
+        "parentId": 1,
+        "medias": [
+          {
+            "id": 331685,
+            "file": 1,
+            "name": "Document A du sous dossier 1_1",
+            "captionFr": "SPA DIANE BARRIÈRE",
+            "captionEn": "SPA DIANE BARRIÈRE",
+            "infoFr": "La piscine, le sauna, le hammam et la salle de fitness sont ouverts tous les jours de 6H30 à 22H30. Les soins de 10H00 à 19H00 (20H00 les vendredis et samedis)",
+            "infoEn": "The interior pool, sauna, steam bath and fitness room are open every day from 6.30 a.m. to 10.30 p.m. Treatments from 10H00 a.m. to 7.00 p.m. (8.00 p.m. on Fridays and Saturdays)",
+            "isNew": "false",
+            "isWebApp": "false"
+          },
+          {
+            "id": 331683,
+            "file": 2,
+            "name": "Document B du sous dossier 1_1",
+            "captionFr": "TEST AVEC CAPTION SEUL",
+            "captionEn": "TEST WITH CAPTION ONLY",
+            "isNew": "false",
+            "isWebApp": "false"
+          },
+          {
+            "id": 331684,
+            "file": 3,
+            "name": "Document C du sous dossier 1_1",
+            "isNew": "false",
+            "isWebApp": "false"
+          }
+        ]
+    },
+    { 
+      "id": 1, 
+      "name": "Dossier Racine 1", 
+      "medias": [] 
+    },
+    {
+      "id": 4,
+      "name": "Sous dossier 1_2 du dossier racine 1",
+      "parentId": 1,
+      "medias": [
+        {
+          "id": 331685,
+          "file": 4,
+          "name": "Document A du sous dossier 1_2",
+          "isNew": "false",
+          "isWebApp": "false"
+        },
+        {
+          "id": 331683,
+          "file": 5,
+          "name": "Document B du sous dossier 1_2",
+          "captionFr": "CHAMBRE DELUXE",
+          "captionEn": "DELUXE ROOM",
+          "infoFr": "46 m²\r\n\r\nCoffre-fort\r\n\r\nMini bar\r\n\r\nSèche-cheveux\r\n\r\nConcierge\r\n",
+          "infoEn": "46 m²\r\n\r\nSafe\r\n\r\nMini-bar\r\n\r\nHairdryer\r\n\r\nConcierge\r\n",          
+          "isNew": "false",
+          "isWebApp": "false"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sous dossier 1_3 du dossier racine 1",
+      "parentId": 1,
+      "medias": [
+        {
+          "id": 331685,
+          "file": 6,
+          "name": "Document A du sous dossier 1_3",
+          "isNew": "false",
+          "isWebApp": "false"
+        },
+        {
+          "id": 331683,
+          "file": 7,
+          "name": "Document B du sous dossier 1_3",
+          "isNew": "false",
+          "isWebApp": "false"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sous sous dossier 1_3_1 du sous dossier 1_3",
+      "parentId": 3,
+      "medias": [
+        {
+          "id": 331685,
+          "file": 8,
+          "name": "Document A du sous sous dossier 1_3_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        },
+        {
+          "id": 331683,
+          "file": 9,
+          "name": "Document B du sous sous dossier 1_3_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sous sous sous dossier 1_3_1_1 du sous sous dossier 1_3_1",
+      "parentId": 5,
+      "medias": [
+        {
+          "id": 331685,
+          "file": 10,
+          "name": "Document A du sous sous sous dossier 1_3_1_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        },
+        {
+          "id": 331683,
+          "file": 11,
+          "name": "Document B du sous sous sous dossier 1_3_1_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sous sous dossier 1_2_1 du dossier 1_2",
+      "parentId": 4,
+      "medias": [
+        {
+          "id": 331685,
+          "file": 12,
+          "name": "Document A du sous sous dossier 1_2_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        },
+        {
+          "id": 331683,
+          "file": 13,
+          "name": "Document B du sous sous sous dossier 1_2_1",
+          "isNew": "false",
+          "isWebApp": "false"
+        }
+      ]
+    }
+  ],
+  "files":[
+    {
+      "id": 1,
+      "path": "galleries/folder/file_Document_A_du_sous_dossier_1_1.png",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 2,
+      "path": "galleries/folder/file_Document_B_du_sous_dossier_1_1.jpg",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 3,
+      "path": "galleries/folder/file_Document_C_du_sous_dossier_1_1.jpg",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 4,
+      "path": "galleries/folder/file_Document_A_du_sous_dossier_1_2.pdf",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 5,
+      "path": "galleries/folder/file_Document_B_du_sous_dossier_1_2.xls",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 6,
+      "path": "galleries/folder/file_Document_A_du_sous_dossier_1_3.ppt",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 7,
+      "path": "galleries/folder/file_Document_B_du_sous_dossier_1_3.mp4",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 8,
+      "path": "galleries/folder/file_Document_A_du_sous_sous_dossier_1_3_1.doc",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 9,
+      "path": "galleries/folder/file_Document_B_du_sous_sous_dossier_1_3_1.doc",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 10,
+      "path": "galleries/folder/file_Document_A_du_sous_sous_sous_dossier_1_3_1_1.doc",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    },
+    {
+      "id": 11,
+      "path": "galleries/folder/file_Document_B_du_sous_sous_sous_dossier_1_3_1_1.doc",
+      "checksum": "2b0a91a9fdc805a657da073f4d80d70fc8c377a5"
+    }
+  ]
+}
